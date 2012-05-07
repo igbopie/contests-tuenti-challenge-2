@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="challenge11" default="test" basedir=".">
+	<description>
+	        Tuenti challenge ant
+	</description>
+
+	<property name="src" location="src"/>
+	<property name="build" location="build"/>
+	<property name="target"  location="target"/>
+
+	<property name="challenge_token" value="78VkS3nnpPZdcgLbR7wS"/>
+	
+	
+	<target name="init">
+		<!-- Create the time stamp -->
+		<tstamp/>
+		<!-- Create the build directory structure used by compile -->
+		<mkdir dir="${build}"/>
+	</target>
+
+	<target name="compile" depends="init"
+	        description="compile the source " >
+		<!-- Compile the java code from ${src} into ${build} -->
+		<javac srcdir="${src}" destdir="${build}"/>
+	</target>
+
+	<target name="dist" depends="compile"
+	        description="generate the distribution" >
+		<!-- Create the distribution directory -->
+		<mkdir dir="${target}/lib"/>
+
+		<!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
+		<jar jarfile="${target}/lib/${ant.project.name}.jar" basedir="${build}"/>
+	</target>
+	
+	<target name="test" depends="clean,dist"
+		        description="test it"  >
+		
+		<property name="executable-full-path"
+		            location="tools-unix/test_challenge"/>
+	
+		<exec executable="${executable-full-path}">
+			<arg value="${challenge_token}" />
+			<arg value="java"  />
+			<arg value="-Xmx4096m"  />
+			<arg value="-cp"  />
+			<arg value="${build}"  />
+			<arg value="com.tuenti.challenge2.igbopie.${ant.project.name}.Problem"  />
+	
+		</exec>
+		
+			
+	</target>
+	
+	<target name="submit" depends="clean,dist"
+		        description="test it and submit it"  >
+		
+		<property name="executable-full-path"
+		            location="tools-unix/submit_challenge"/>
+		<tar destfile="../${ant.project.name}.tar" basedir="."/>
+		<gzip destfile="${target}/${ant.project.name}.tgz" src="../${ant.project.name}.tar"/>
+		<delete file="../${ant.project.name}.tar"></delete>
+		<exec executable="${executable-full-path}" inputstring="y">
+			<arg value="${challenge_token}" />
+			<arg value="${target}/${ant.project.name}.tgz" />
+			<arg value="java"  />
+			<arg value="-Xmx4096m"  />
+			<arg value="-cp"  />
+			<arg value="${target}"  />
+			<arg value="com.tuenti.challenge2.igbopie.${ant.project.name}.Problem"  />
+	
+		</exec>
+		
+			
+	</target>
+
+
+	<target name="clean"
+	        description="clean up" >
+		<!-- Delete the ${build} and ${dist} directory trees -->
+		<delete dir="${build}"/>
+		<delete dir="${target}"/>
+	</target>
+</project>

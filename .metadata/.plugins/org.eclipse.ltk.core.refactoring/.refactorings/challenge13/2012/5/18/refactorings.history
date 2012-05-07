@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.tuenti.challenge2.igbopie.challenge12&apos; to &apos;com.tuenti.challenge2.igbopie.challenge13&apos;&#x0A;- Original project: &apos;challenge13&apos;&#x0A;- Original element: &apos;challenge13/src/com.tuenti.challenge2.igbopie.challenge12&apos;&#x0A;- Renamed element: &apos;challenge13/src/com.tuenti.challenge2.igbopie.challenge13&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.tuenti.challenge2.igbopie.challenge12&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.tuenti.challenge2.igbopie.challenge12" name="com.tuenti.challenge2.igbopie.challenge13" qualified="false" references="true" stamp="1336122368958" textual="false" version="1.0"/>
+</session>

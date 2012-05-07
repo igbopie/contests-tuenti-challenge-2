@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="com.tuenti.challenge2.igbopie.challenge6.Problem"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.tuenti.challenge2.igbopie.challenge7.Problem"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.Queue"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.lang.Character"/>
+<fullyQualifiedTypeName name="java.io.DataInputStream"/>
+<fullyQualifiedTypeName name="java.io.EOFException"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.nio.CharBuffer"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="com.tuenti.challenge2.igbopie.challenge9.Problem"/>
+<fullyQualifiedTypeName name="java.text.DecimalFormat"/>
+<fullyQualifiedTypeName name="java.util.regex.Matcher"/>
+<fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+<fullyQualifiedTypeName name="com.tuenti.challenge2.igbopie.challenge10.Problem"/>
+<fullyQualifiedTypeName name="com.tuenti.challenge2.igbopie.challenge11.Problem"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.adapters.HexBinaryAdapter"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="com.tuenti.challenge2.igbopie.challenge13.Problem"/>
+<fullyQualifiedTypeName name="java.util.Stack"/>
+<fullyQualifiedTypeName name="javax.swing.text.html.MinimalHTMLWriter"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.awt.geom.Ellipse2D.Double"/>
+<fullyQualifiedTypeName name="com.tuenti.challenge2.igbopie.challenge17.Problem"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.tuenti.challenge2.igbopie.challenge17.Problem.IngredientReference"/>
+<fullyQualifiedTypeName name="com.tuenti.challenge2.igbopie.challenge17.Problem.Ingredient"/>
+<fullyQualifiedTypeName name="com.tuenti.challenge2.igbopie.challenge17.Problem.PolarPoint"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="com.tuenti.challenge2.igbopie.challenge17.Problem.CartesianPoint"/>
+<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="javax.imageio.ImageIO"/>
+</qualifiedTypeNameHistroy>
